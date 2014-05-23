@@ -1,0 +1,40 @@
+{
+  "name": "capella.js",
+  "description": "Microtemplating library",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "vinit Kumar",
+    "email": "vinit.kumar@changer.nl",
+    "url": "http://vinitkumar.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/vinitkme/capella.js.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/capella.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.4"
+  },
+  "keywords": []
+}
